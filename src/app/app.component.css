@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
-.header {
+header {
   width: 100%;
   height: 60px;
   display: block;
@@ -34,9 +34,19 @@
   width: 90px;
   display: table-cell;
   vertical-align: middle;
+}
+
+.big_logo {
   font-family: 'Girassol', cursive;
-  font-size: 32px;
-  padding: 0 15px;
+  font-size: 40px;
+  padding: 0 0 0 15px;
+}
+
+.small_logo {
+  font-family: 'Girassol', cursive;
+  font-size: 15px;
+  color: darkgray;
+  padding: 0;
 }
 
 .navigation {
