@@ -1,10 +1,10 @@
 .navigation {
-  float:right;
+  float: right;
   height: 100%;
 }
 
-.navigation li{
-  height:100%;
+.navigation li {
+  height: 100%;
   display: table;
   float: left;
   padding: 0 20px;
