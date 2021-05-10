@@ -1,0 +1,17 @@
+.navigation {
+  float:right;
+  height: 100%;
+}
+
+.navigation li{
+  height:100%;
+  display: table;
+  float: left;
+  padding: 0 20px;
+}
+
+.navigation li a {
+  display: table-cell;
+  vertical-align: middle;
+  color: #dddddd;
+}

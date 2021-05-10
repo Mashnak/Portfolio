@@ -1,0 +1,27 @@
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1 {
+  color: #ffffff;
+  height: 100%;
+  width: 90px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.big_logo {
+  font-family: 'Girassol', cursive;
+  font-size: 40px;
+  padding: 0 0 0 15px;
+  color: #aa8844;
+}
+
+.small_logo {
+  font-family: 'Girassol', cursive;
+  font-size: 15px;
+  color: #dddddd;
+  padding: 0;
+}
