@@ -12,6 +12,10 @@
   vertical-align: middle;
 }
 
+.logo_container a {
+    text-decoration: none;
+}
+
 .big_logo {
   font-family: 'Girassol', cursive;
   font-size: 40px;
@@ -24,4 +28,9 @@
   font-size: 15px;
   color: #dddddd;
   padding: 0;
+}
+
+
+.logo_container a {
+    text-decoration: none;
 }

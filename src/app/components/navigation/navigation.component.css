@@ -14,6 +14,11 @@
   display: table-cell;
   vertical-align: middle;
   color: #dddddd;
+  text-decoration: none;
+}
+.navigation li a:hover {
+  color: #aa8844;
+  transition: 0.3s ease-out;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -22,7 +27,6 @@
   }
   .navigation_hamburger {
     display: block;
-
   }
 }
 
