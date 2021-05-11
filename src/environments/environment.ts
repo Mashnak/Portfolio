@@ -1,5 +1,6 @@
 /*
  * Copyright (c) Markus Schmidgall 2021
+ * Portfolio Projekt um Angular von Grund auf zu lernen
  */
 
 // This file can be replaced during build by using the `fileReplacements` array.

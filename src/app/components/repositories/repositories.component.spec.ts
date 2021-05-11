@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) Markus Schmidgall 2021
+ * Portfolio Projekt um Angular von Grund auf zu lernen
+ */
+
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 
 import {RepositoriesComponent} from './repositories.component';
