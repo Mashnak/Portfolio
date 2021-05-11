@@ -20,16 +20,23 @@
   color: #dddddd;
   text-decoration: none;
 }
+
 .navigation li a:hover {
   color: #aa8844;
   transition: 0.3s ease-out;
 }
 
-@media only screen and (max-width: 1000px) {
-  .navigation{
+.navigation.clicked {
+  color: #aa8844;
+}
+
+@media only screen and (max-width: 800px) {
+  .navigation {
     display: none
   }
+
+  /*
   .navigation_hamburger {
     display: block;
-  }
+  }*/
 }

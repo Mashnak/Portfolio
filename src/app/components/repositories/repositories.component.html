@@ -1,0 +1,6 @@
+<div class="repositories">
+  <a href="{{repository.url}}" target="blank">
+    <h3>{{repository.name}}</h3>
+    <p>{{repository.description.substring(0, 100)}}<span *ngIf="repository.description.length>100">...</span></p>
+  </a>
+</div>

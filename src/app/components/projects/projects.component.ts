@@ -3,7 +3,8 @@
  */
 
 import {Component, OnInit} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {Repository} from '../../interfaces/Repository';
+import {REPOSITORIES} from '../../mock-data/mock-repositories';
 
 @Component({
   selector: 'app-projects',
@@ -11,8 +12,9 @@ import {HttpClient} from '@angular/common/http';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
+  repositories: Repository[] = REPOSITORIES;
 
-  constructor(private http: HttpClient) {
+  constructor() {
   }
 
   ngOnInit(): void {

@@ -1,0 +1,22 @@
+/*
+ * Copyright (c) Markus Schmidgall 2021
+ */
+
+.repositories {
+  width: 300px;
+  background-color: #aa8844;
+  border: 1px solid #222222;
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+.repositories h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.repositories a {
+  color: #222222;
+  text-decoration: none;
+}
