@@ -1,4 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+/*
+ * Copyright (c) Markus Schmidgall 2021
+ */
+
+import {Component, OnInit} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-projects',
@@ -7,9 +12,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private http: HttpClient) {
+  }
 
   ngOnInit(): void {
+
   }
 
 }

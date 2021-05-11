@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+/*
+ * Copyright (c) Markus Schmidgall 2021
+ */
+
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-navigation',
@@ -7,7 +11,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

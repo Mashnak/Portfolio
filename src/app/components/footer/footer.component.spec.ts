@@ -1,6 +1,10 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+/*
+ * Copyright (c) Markus Schmidgall 2021
+ */
 
-import { FooterComponent } from './footer.component';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
+
+import {FooterComponent} from './footer.component';
 
 describe('FooterComponent', () => {
   let component: FooterComponent;
@@ -8,9 +12,9 @@ describe('FooterComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FooterComponent ]
+      declarations: [FooterComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {

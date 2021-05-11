@@ -1,8 +1,12 @@
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+/*
+ * Copyright (c) Markus Schmidgall 2021
+ */
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
+import {enableProdMode} from '@angular/core';
+import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+
+import {AppModule} from './app/app.module';
+import {environment} from './environments/environment';
 
 if (environment.production) {
   enableProdMode();

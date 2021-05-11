@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Markus Schmidgall 2021
+ */
+
 import {Component, OnInit} from '@angular/core';
 
 @Component({

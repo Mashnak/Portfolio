@@ -1,4 +1,8 @@
-import { browser, by, element } from 'protractor';
+/*
+ * Copyright (c) Markus Schmidgall 2021
+ */
+
+import {browser, by, element} from 'protractor';
 
 export class AppPage {
   async navigateTo(): Promise<unknown> {

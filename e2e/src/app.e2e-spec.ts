@@ -1,5 +1,9 @@
-import { browser, logging } from 'protractor';
-import { AppPage } from './app.po';
+/*
+ * Copyright (c) Markus Schmidgall 2021
+ */
+
+import {browser, logging} from 'protractor';
+import {AppPage} from './app.po';
 
 describe('workspace-project App', () => {
   let page: AppPage;
