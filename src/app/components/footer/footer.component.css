@@ -44,6 +44,12 @@
   position: absolute;
   bottom: 5px;
   right: 5px;
-  color:#aa8844;
+  color: #aa8844;
   font-size: 10px;
+}
+
+@media only screen and (max-height: 600px) {
+  .footer-container {
+    display: none;
+  }
 }
